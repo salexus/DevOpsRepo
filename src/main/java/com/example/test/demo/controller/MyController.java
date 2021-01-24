@@ -20,11 +20,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class MyController {
 	@GetMapping("/")
 	public String home() {
-	return "this is homepage";
+	return "i love you babe ❤️";
 	}
 	@GetMapping("/house")
 	public String house() {
-	return "this is housepage";
+	return "this is for you Gru";
 	}
 	@GetMapping("/courses")
 	public byte[] getCourses(@RequestBody byte[] data)
